@@ -1,0 +1,93 @@
+.container{
+    width:607px;
+    height:829px;
+    margin:auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image:linear-gradient(180deg,rgb(119, 3, 252) 0%,rgb(119, 3, 252));
+}
+
+.topbar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 75px;
+}
+
+.topbar input{
+    width:350px;
+    height:80px ;
+    font-size: 30px;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    padding-left: 40px;
+    font-weight: 400;
+    color: rgb(10, 1, 15);
+    
+}
+
+.search-icon
+{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80px;
+height:80px;
+background-color: whitesmoke;
+border-radius: 40px;
+cursor:pointer;
+}
+
+.wheatherimage{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.wheathertemp{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.wheatherloaction{
+display: flex;
+justify-content: center;
+font-size: 70px;
+font-weight: 400;
+color: whitesmoke;
+
+}
+
+.datacontainer{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+color: white;
+}
+
+.element{
+    margin:auto;
+    display:flex;
+   align-items: flex-start;
+   gap:12px;
+}
+.data{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top:10px ;
+    
+}
+
+
